@@ -6,8 +6,7 @@ keywords: TensorRT, NVIDIA Jetson, DeepStream SDK, deployment, Ultralytics, YOLO
 
 # Deploy on NVIDIA Jetson using TensorRT and DeepStream SDK
 
-📚 This guide explains how to deploy a trained model into NVIDIA Jetson Platform and perform inference using TensorRT and DeepStream SDK. Here we use TensorRT to maximize the inference performance on the Jetson platform.
-UPDATED 18 November 2022.
+📚 This guide explains how to deploy a trained model into NVIDIA Jetson Platform and perform inference using TensorRT and DeepStream SDK. Here we use TensorRT to maximize the inference performance on the Jetson platform. UPDATED 18 November 2022.
 
 ## Hardware Verification
 
@@ -55,8 +54,8 @@ vi requirements.txt
 - **Step 5.** Edit the following lines. Here you need to press **i** first to enter editing mode. Press **ESC**, then type **:wq** to save and quit
 
 ```sh
-# torch>=1.7.0
-# torchvision>=0.8.1
+# torch>=1.8.0
+# torchvision>=0.9.0
 ```
 
 **Note:** torch and torchvision are excluded for now because they will be installed later.
